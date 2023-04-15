@@ -1,0 +1,64 @@
+.search__form{
+
+    display: flex;
+    justify-content: center;
+    margin: -5rem auto 0 auto;
+    gap: 3rem;
+    padding: 4rem;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: .30rem .10rem .40rem .3rem rgb(176, 175, 175);
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:24.5rem;
+        height: 6rem; 
+        font-size: $secondary__font;
+        color: $gray__color;
+        border:1px solid blue;
+        transition: all .3s;
+    }
+    .bedroom{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:24.5rem;
+        height: 6rem; 
+        font-size: $secondary__font;
+        color: $gray__color;
+        border: 1px solid blue;
+        transition: all .3s;
+
+    }
+    .rent{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:24.5rem;
+        height: 6rem; 
+        font-size: $secondary__font;
+        color: $gray__color;
+        border: 1px solid blue;
+        transition: all .3s;
+    }
+    .location:hover, .location:active, .bedroom:hover, .bedroom:active,
+    .rent:hover, .rent:active{
+        border: none;
+        outline: 1px solid $primary__color;
+        color: $primary__color;
+    }
+    
+    &-btn 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & > img {
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.hero {
+    background-color: #E8F2FF;
+    width: 100%;
+    // height: 85dvh;
+    & > .container{
+
+        display: flex;
+        justify-content: space-around;
+        // align-items: center;
+        flex-wrap: wrap;
+        padding-top: 8rem;
+    }
+   
+
+
+    &__content {
+
+        // position: absolute;
+        // top: 12rem;
+        // margin-top: -22rem;
+        padding-top: 4rem;
+        width: 40%;
+        
+        h3 {
+            line-height: $tertiary__line;
+            font-size: $tertiary__font;
+            color: $primary__color;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 7.2rem;
+            font-weight: 550;
+
+        }
+
+        p {
+            color: $gray__color;
+            font-size: $secondary__font;
+            margin-bottom: 3rem;
+        }
+    }
+
+
+    &__img {
+
+        position: relative;
+
+        &--main {
+
+            display: flex;
+            flex-direction: column;
+
+
+            &>img {
+                width: 60rem;
+                height: 60.0rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+
+        &--rating {
+            position: absolute;
+            top: 14%;
+            left: 45%;
+        }
+
+        &--box {
+            position: relative;
+            top: -9rem;
+            left: 9rem;
+            background-color: #FFFFFF;
+            width: 40%;
+            text-align: center;
+            padding: 3rem 0 0 0;
+            margin-bottom: 3rem;
+
+
+            p {
+                font-size: $secondary__font;
+                color: $gray__color;
+                padding-bottom: 2rem;
+
+                span {
+                    color: $primary__color;
+                    font-weight: 800;
+                    font-size: 3.4rem;
+                }
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,55 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.feature{
+    width: 80%;
+    margin: auto;
+}
+.feature__layout{
+
+    // margin: 0 auto;
+    display: grid;
+    // width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box6"
+    ;
+    gap: 2rem;
+
+
+
+&-box-1{
+grid-area: box1;
+}
+
+&-box-2{
+    grid-area: box2;
+    
+}
+
+&-box-3{
+    grid-area: box3;
+    
+}
+
+&-box-4{    grid-area: box4;
+    
+}
+
+&-box-5{    grid-area: box5;
+    
+}
+&-box-6{    grid-area: box6;
+    
+}
+
+
+
+
+
+
+}

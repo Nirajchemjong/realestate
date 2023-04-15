@@ -1,0 +1,30 @@
+.banner__agent{
+    // margin-top: 9rem;
+    width: 60%;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+
+    &-content{
+        // width: 40%;
+        @include flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        &-img{
+            height: 81px;
+            width: 81px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            @include primaryHeading;
+        }
+    }
+
+}

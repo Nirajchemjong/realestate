@@ -1,0 +1,86 @@
+.feature{
+    margin-top: 6rem;
+    // width: 80%;
+
+    &__title{
+
+        @include title;
+        h1{
+            @include primaryHeading;
+        }
+        h2{
+            @include secondaryHeading;
+        }
+
+    }
+    [class^="feature__layout-box-"]{
+
+        // width: 370.9px;
+        // height: 547.27px;
+        position: relative;
+        hr{
+            background-color: #DCDCDC;
+        }
+        
+        div.img  {
+            width: 370.9px;
+            height: 254.52px;
+            position: relative;
+
+            h2{
+                position: absolute;
+                top:.8rem;
+                background-color: black;
+                color: white;
+                padding: 1rem;
+            }
+        }
+        .img1{
+            
+            background: url("./../../img/feature/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table.png") center center no-repeat;
+            
+        }
+        h1,p{
+            text-align: center;
+        }
+        h1{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+        }
+        
+        // hr::after{
+        //     content: "";
+        //     position: absolute;
+        //     bottom: 4rem;
+        //     border: none;
+        //     border: 2px solid rebeccapurple;
+        // }
+
+        .details{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            gap: 1rem;
+           
+        }
+        .line{
+            width: 100%;
+            border: none;
+            border: 1px solid #DCDCDC;
+            position: absolute;
+            bottom: 7.5rem;
+        }
+        .primary__btn{
+            width: 100%;
+        }
+    }
+
+
+}
