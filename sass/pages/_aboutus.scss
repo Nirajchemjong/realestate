@@ -2,10 +2,10 @@
     // background-color: aqua;
     padding-top: 9rem;
 
-    &>.container {
+    .container {
 
         display: flex;
-        width: 60%;
+        width: 80%;
         // background-color: red;
         // justify-content: space-around;
         gap: 1rem;
@@ -73,7 +73,6 @@
 
     &__content {
         display: flex;
-
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-evenly;
@@ -88,6 +87,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: flex-start;
+
             &-title {
                 font-size: $primary__font;
                 color: #0061E0;
@@ -125,14 +125,15 @@
                 // height: 90%;
 
                 &>img {
-                 height: 7rem;
+                    height: 7rem;
 
                 }
 
-                & > h3{
+                &>h3 {
                     font-size: $primary__font;
                 }
-                & > p {
+
+                &>p {
                     font-size: $secondary__font;
                     color: #000000;
                 }
@@ -147,16 +148,18 @@
                 align-items: flex-start;
 
                 justify-content: space-evenly;
+
                 &>img {
                     height: 7rem;
-                        
-                   }
-   
 
-                & > h3{
+                }
+
+
+                &>h3 {
                     font-size: $primary__font;
                 }
-                & > p {
+
+                &>p {
                     font-size: $secondary__font;
                     color: #000000;
                 }

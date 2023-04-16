@@ -1,6 +1,6 @@
-.header{
+.header {
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 4;
 }
 
@@ -8,9 +8,9 @@
 
     padding: 1.3rem;
     background-color: #ECF2F9;
-    
-   
-    & > .container{
+
+
+    &>.container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,12 +19,13 @@
         // -moz-box-shadow: 0px 18px 29px -14px rgba(0,0,0,0.75);
 
     }
+
     &__logo {
         &>img {
             width: 22.0rem;
         }
 
-        
+
         margin-right: 3.3rem;
     }
 
@@ -32,8 +33,9 @@
         width: 60rem;
 
 
-        &>ul {
+        &-ul {
 
+            list-style: none;
             display: flex;
             font-size: $secondary__font;
             line-height: $tertiary__line;
@@ -41,19 +43,20 @@
             align-items: center;
             color: $gray__color;
 
-            & li {
+            &-i {
                 text-decoration: none;
                 list-style: none;
 
             }
 
-            & li:hover:not(:nth-child(6)) {
+            &-i:hover:not(:nth-child(6)) {
                 text-decoration: underline;
                 color: $primary__color;
 
             }
 
-            & li button.nav__btn {
+            & button.nav__btn {
+                list-style: none;
                 padding: 1.6rem;
                 text-align: center;
                 border: none;
@@ -74,15 +77,15 @@
         justify-content: center;
     }
 
-    
+
 
 }
 
 
-hr{
+hr {
     height: .1rem;
     background-color: #8db8ef;
     border: none;
     box-shadow: 0px 18px 29px -14px rgba(74, 157, 251, 0.441);
-    
+
 }
